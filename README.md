@@ -8,4 +8,4 @@
 - git push origin main
 2. 练习2：在github上修改readme文件，然后通过git更新到本地仓库
 - git fetch origin
-- git merge origin/main   # 另：上面两步等价于git pull origin
+- git merge origin/main   # 另：上面两步等价于git pull origin/main
