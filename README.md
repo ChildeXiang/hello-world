@@ -8,4 +8,17 @@
 - git push origin main
 2. 练习2：在github上修改readme文件，然后通过git更新到本地仓库
 - git fetch origin
-- git merge origin/main   # 另：上面两步等价于git pull origin/main
+- git merge origin/main   
+3. 练习3：使用pull,等价于fetch+merge
+- $ git pull origin/main 
+```
+# 报错如下：
+  fatal: 'origin/main' does not appear to be a git repository
+  fatal: Could not read from remote repository.
+
+  Please make sure you have the correct access rights
+  and the repository exists.
+```
+- $ git pull origin  # 成功
+
+
